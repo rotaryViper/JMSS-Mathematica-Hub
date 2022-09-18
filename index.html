@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    First created: 17/9/2022
+    Last updated: 17/9/2022
+
+    I wanted to centralise mathematica functions in JMSS.
+    By Rotary Viper :)
+-->
+    <head>
+        <title>JMSS Mathematica Hub</title>
+        <!--An attempt at SEO optimisations-->
+        <meta name="author" content="Rotary Viper">
+        <meta name="description" content="A hub for Mathematica functions made by students of JMSS.">
+        <meta name="keywords" content="JMSS, Mathematica">
+        <meta name="referrer" content="no-referrer">
+        <meta name="theme-color" content="navy">
+        <meta name="color" content="lightskyblue">
+
+        <!--Website settings-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" href="home.svg">
+        
+        <!--Preload fonts first-->
+        <link
+            rel="preload"
+            as="font"
+            href="https://fonts.gstatic.com/s/nunito/v24/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
+            type="font/woff2"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="preload"
+            as="font"
+            href="https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2"
+            type="font/woff2"
+            crossorigin="anonymous"
+        >
+
+        <!--
+        https://fonts.gstatic.com/s/nunito/v24/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2
+        https://fonts.gstatic.com/s/opensans/v29/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2
+        https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans
+
+        target="_blank" rel="noopener noreferrer" this line is used to safely open links in new tabs
+        -->
+
+        <!--Then load font css file-->
+        <link rel="preload" as="style" href="constant.css">
+        <link rel="stylesheet" href="constant.css">
+
+        <!--Then load main css file-->
+        <link rel="preload" as="style" href="index.css">
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <!--Title-->
+        <a class="title" href="https://xkcd.com/1987/" target="_blank" rel="noopener noreferrer">
+            JMSS Mathematica Hub
+        </a>
+
+        <!--Introduction-->
+        <div class="subtitle">
+            A hub for Mathematica functions made by students of JMSS
+        </div>
+
+        <!--Credits-->
+        <a class="credit" href="https://github.com/rotaryViper" target="_blank" rel="noopener noreferrer">
+            By Rotary Viper
+        </a>
+
+        <hr>
+        <!--Every section
+        Every section slides up to reveal it's subsections
+        -->
+        <span class="flexBox">
+            <a class="sect" href="Blackburn/index.html">
+                <hr>
+                <img
+                    src=Blackburn/house.png
+                    alt="Blackburn Logo (We don't have it for now)"
+                    decoding=async
+                    loading=lazy
+                    class="logo"
+                >
+            </a>
+            <a class="sect" href="Doherty/index.html">
+                <img
+                    src=Doherty/house.png
+                    alt="Doherty"
+                    decoding=async
+                    loading=lazy
+                    class="logo"
+                >
+            </a>
+            <a class="sect" href="Flannery/index.html">
+                <img
+                    src=Flannery/house.png
+                    alt="Flannery"
+                    decoding=async
+                    loading=lazy
+                    class="logo"
+                >
+            </a>
+            <a class="sect" href="Wood/index.html">
+                <img
+                    src=Wood/house.png
+                    alt="Wood"
+                    decoding=async
+                    loading=lazy
+                    class="logo"
+                >
+            </a>
+            <a class="sect" href="Credits/index.html">
+                Credits
+            </a>
+        </span>
+    </body>
+</html>
