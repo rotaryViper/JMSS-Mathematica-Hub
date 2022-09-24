@@ -6,18 +6,18 @@
 
 .sect{color:black}
 
-.sect:nth-child(1){
+.sect:nth-child(2){
     background-color:plum;
 }
 
-.sect:nth-child(2){
+.sect:nth-child(3){
     background-color:lightcyan;
 }
 
-.sect:nth-child(3){
+.sect:nth-child(4){
     background-color:lightgreen;
 }
 
-.sect:nth-child(4){
+.sect:nth-child(5){
     background-color:lightgray;
 }
