@@ -6,6 +6,10 @@
 
 .sect{color:black}
 
+.sect:nth-child(1){
+    background-color:goldenrod;
+}
+
 .sect:nth-child(2){
     background-color:plum;
 }
